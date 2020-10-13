@@ -9,6 +9,8 @@ import TodoForm from './TodoForm/TodoForm'
 import './App.css';
 import {DB_CONFIG} from './config/config';
 
+firebase.analytics();
+
 class App extends Component {
 
   constructor(props) {
